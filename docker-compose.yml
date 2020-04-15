@@ -22,7 +22,7 @@ services:
   webapp:
     container_name: webapp
     build:
-      context: ./client
+      context: ./webapp
       dockerfile: Dockerfile
     ports:
       - 8000:80
